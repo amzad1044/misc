@@ -1,0 +1,304 @@
+!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+
+/*Slider*/
+.titleMessage{
+    height: 250px;width: 100%;position: absolute;
+    z-index: 4;text-align: center;top: 40%;
+}
+
+.titleMessage .heading h4.main{
+    color: #fff;font-size: 40px;
+    letter-spacing: 7px;font-weight:100; 
+}
+.titleMessage .heading p.sub{
+    color: #fff;font-size: 20px;
+    letter-spacing: 7px;font-weight:100; 
+}
+.contactButton{
+border: 1px solid #fff;
+padding: 15px 20px;
+color: #fff;
+display: inline-block;
+margin-top: 20px;
+transition: 0.5s;
+}
+.contactButton:hover{
+    color: #e74c3c;background: #fff;text-decoration: none;
+}
+
+/*End slider*/
+.frmwidth{
+	width: 40%;
+}
+
+.card img{
+    	height: 300px;
+    }
+.crdEdit a{
+    	    background: #ff3300;
+		    color: #fff;
+		    border-radius: 30px;
+		    transition:1s;
+    }
+.crdEdit a:hover {
+    	background: black;
+		    color: #fff;
+		    border-radius: 30px;
+		    transition:1s;
+    }
+
+.btnSrc{
+	background:black; 
+	color: #fff; 
+	transition: 1s;
+	border-radius:0px;
+	padding: 5px 25px 5px 25px;
+}
+.btnSrc:hover{
+	background:red; 
+	color: #fff; 
+	transition: 1s;
+}
+.inputEdt{
+	    padding-right: 50px;
+	    border: 0;
+}
+.page-footer{
+	background: #343A40;
+	color: #fff;
+}
+.navEdit{
+	background:rgb(30, 41, 54);
+}
+ .navEdit .brandedt{
+	color: #FEA51A;
+    font-size: 30px;
+}
+.uledit{
+
+}
+.uledit a{
+	color:#fff;
+	transition: 1s;
+}
+
+.uledit a:hover{
+	background: red;
+	color:#fff;
+	transition: 1s;
+}
+.tglbtnedit{
+    background: white;
+}
+.tglbtnedit .iconEdit{
+	background: red;
+}
+/*To scroll Return top */
+
+
+		#return-to-top {
+		    position: fixed;
+		    bottom: 20px;
+		    right: 20px;
+		    background: rgb(0, 0, 0);
+		    background: rgba(0, 0, 0, 0.7);
+		    width: 50px;
+		    height: 50px;
+		    display: block;
+		    text-decoration: none;
+		    -webkit-border-radius: 35px;
+		    -moz-border-radius: 35px;
+		    border-radius: 35px;
+		    display: none;
+		    -webkit-transition: all 0.3s linear;
+		    -moz-transition: all 0.3s ease;
+		    -ms-transition: all 0.3s ease;
+		    -o-transition: all 0.3s ease;
+		    transition: all 0.3s ease;
+		}
+		#return-to-top i {
+		    color: #fff;
+		    margin: 0;
+		    position: relative;
+		    left: 16px;
+		    top: 13px;
+		    font-size: 19px;
+		    -webkit-transition: all 0.3s ease;
+		    -moz-transition: all 0.3s ease;
+		    -ms-transition: all 0.3s ease;
+		    -o-transition: all 0.3s ease;
+		    transition: all 0.3s ease;
+		}
+		#return-to-top:hover {
+		    background: rgba(0, 0, 0, 0.9);
+		}
+		#return-to-top:hover i {
+		    color: #fff;
+		    top: 5px;
+		}
+
+
+		/* Extra Things */
+		body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+
+
+/*To scroll Return top */
+
+.login_container{
+	padding: 0px;
+	float:right;
+}
+
+.listedit a:hover{
+	background:#ff3300;
+	color: white;
+}
+
+/*Login Form*/
+
+.form-elegant .font-small {
+font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+-webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+-webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+.sectionEdit{
+	padding: 30px 300px;
+}
+/*Login Form*/
+
+/*Sign up form*/
+.cardEdit{
+	padding: 0px;
+}
+
+/*Home user login css*/
+/*Home user login css*/
+/*Home user login css*/
+
+input[type=text], input[type=password] {
+	width: 100%;
+	height: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate input{
+  height: 38px;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+
+
+
+
